@@ -25,6 +25,7 @@ public class RDTReceiverGUI extends javax.swing.JFrame {
         dataSize = 0;
         receiveChunk = new byte[1000];
         port = JOptionPane.showInputDialog(null, "Enter port number", "The Network", 3);
+        System.out.println("hello world");
         new ReceiverThread().start();
     }
 
